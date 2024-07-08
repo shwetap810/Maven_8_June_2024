@@ -25,7 +25,7 @@ public class VerifySoftAssertExample {
         WebElement usernameTextBox = driver.findElement(By.xpath("//input[starts-with(@name,'name')]"));
         softAssert.assertTrue(usernameTextBox.isDisplayed(), "Username Textbox should be display");
         softAssert.assertAll();
-        driver.close();
+       
 
 
 
